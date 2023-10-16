@@ -13,7 +13,7 @@ public class MusicPlayer {
     }
 
     public String increaseVolume(){
-        if(volume <= 100){
+        if(volume < 100){
             volume++;
             return  "\tThe volume of the Music Player increases to " + volume;
         }
@@ -24,7 +24,7 @@ public class MusicPlayer {
     }
 
     public String decreaseVolume(){
-        if(volume <= 100){
+        if(volume < 0){
             volume--;
             return  "\tThe volume of the Music Player decreases to " + volume;
         }
