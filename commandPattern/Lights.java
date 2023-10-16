@@ -1,7 +1,5 @@
 package commandPattern;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Lights {
 
     int brightness = 0;
